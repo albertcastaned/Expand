@@ -1,0 +1,5 @@
+<div class="container-fluid text-center bg-grey">
+  <img src="imagenes/cu.png" class="rounded-circle" alt="Daniel Cu" width="236" height="236">
+  <img src="imagenes/cu.png" class="rounded-circle" alt="Daniel Cu" width="236" height="236">
+  <img src="imagenes/cu.png" class="rounded-circle" alt="Daniel Cu" width="236" height="236">
+</div>

@@ -1,0 +1,28 @@
+<!-- Contenedor de Servicios -->
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>Mentoring</h4>
+      <p>Get in touch with a mentor.</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>Consulting</h4>
+      <p>Evaluation of personal projects.</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>Talent Coaching</h4>
+      <p>Discorver leadership plans</p>
+    </div>
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Get talent certifications.</p>
+    </div>
+  </div>
+</div>

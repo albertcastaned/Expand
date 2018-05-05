@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CreateAccount</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <!-- Menu de navegación -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage">Expand TALENT</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="Talent.html">TALENTS</a></li>
+            <li><a href="commun.html">COMMUNITIES</a></li>
+            <li><a href="Mentoring.html">BE A MENTOR</a></li>
+            <li><a href="Login.html">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+      <h3 class="text-center">CreateAccount</h3>
+      <p class="text-center"><em>Expad Talent</em></p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <p>Personal Data</p>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Family Name" type="email" required>
+            </div>
+          </div>
+          <div class="col-sm-12 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Email" type="text" required>
+          </div>
+          <div class="col-sm-12 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Confirm Email" type="text" required>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <button class="btn pull-right" type="submit">Create Account</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <h3 class="text-center">Personal Settings</h3>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Become a mentor</a></li>
+        <li><a data-toggle="tab" href="#menu1">Create your community</a></li>
+        <li><a data-toggle="tab" href="#menu2">Manage your profile</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h2>Become a mentor</h2>
+          <p>Here you will be able to create your profile mentor</p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h2>Create your community</h2>
+          <p>Here you will be able to create your own community project</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h2>Manage your profile</h2>
+          <p>Here you will be able to manage your profile</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

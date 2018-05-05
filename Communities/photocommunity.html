@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Expand - Photography Community</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/master.css">
+  <style>
+  .fakeimg {
+      height: 200px;
+      background: #aaa;
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>Photography Projects</h1>
+    <p>Roll into a project and improve your skills</p>
+  </div>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">Expand TALENT</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../Home.html">HOME</a></li>
+        <li><a href="../Talent.html">TALENTS</a></li>
+        <li><a href="../commun.html">COMMUNITIES</a></li>
+        <li><a href="../Mentoring.html">MENTORING</a></li>
+        <li><a href="../Login.html">LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Container-->
+<div class="container" style="margin-top:100px;margin-bottom:100px">
+  <div class="row">
+    <!--1-->
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"  id="popoverData" data-html="true" data-content="•Modern camera<br />•Body of water" data-placement="bottom" data-original-title="REQUIREMENTS:" data-trigger="hover">
+        <div class="hovereffect">
+            <img class="img-responsive" src="../imagenes/photo1.png" alt="">
+            <div class="overlay">
+               <h2>Splash</h2>
+               <a class="info" href="../Projects/photoproject1.html">Join now</a>
+            </div>
+        </div>
+    </div>
+    <!--2-->
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="popoverData2" data-html="true" data-content="•Modern camera<br />•Area with good lightning" data-placement="bottom" data-original-title="REQUIREMENTS:" data-trigger="hover">
+        <div class="hovereffect">
+            <img class="img-responsive" src="../imagenes/photo2.png" alt="">
+            <div class="overlay">
+               <h2>Food ChainX</h2>
+               <a class="info" href="../Projects/photoproject2.html">Join now</a>
+            </div>
+        </div>
+    </div>
+    <!--3-->
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="popoverData3" data-html="true" data-content="•Modern camera" data-placement="bottom" data-original-title="REQUIREMENTS:" data-trigger="hover">
+        <div class="hovereffect">
+            <img class="img-responsive" src="../imagenes/photo3.png" alt="">
+            <div class="overlay">
+               <h2>Mountain Climbing</h2>
+               <a class="info" href="../Projects/photoproject3.html">Join now</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Contacto -->
+<div id="contact" class="container-fluid" >
+  <div class="container-fluid">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contact us and we'll get back to you within 12 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Queretaro, México</p>
+        <p><span class="glyphicon glyphicon-phone"></span> 01 800 12455485</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> expand@talent.com</p>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="container-fluid text-center">
+<a href="#myPage" title="To Top">
+  <span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+<p>Expand Talent. All rights reserved 2018. Expand Team. </p>
+</footer>
+
+<script>
+$(document).ready(function(){
+// Add smooth scrolling to all links in navbar + footer link
+$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  } // End if
+});
+
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
+  });
+});
+})
+</script>
+<script>
+$('#popoverData').popover();
+$('#popoverOption').popover({ trigger: "hover",animation:true});
+
+</script>
+<script>
+$('#popoverData2').popover();
+$('#popoverOption').popover({ trigger: "hover",animation:true});
+
+</script>
+<script>
+$('#popoverData3').popover();
+$('#popoverOption').popover({ trigger: "hover",animation:true});
+
+</script>
+</body>
+</html>
